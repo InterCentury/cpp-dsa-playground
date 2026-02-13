@@ -1,19 +1,24 @@
 
 # Build folders
+
 build/
 cmake-build-*/
 out/
 bin/
 dist/
 
+
 # CMake
+
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 compile_commands.json
 
+
 # Compiled binaries
+
 *.exe
 *.out
 *.app
@@ -24,46 +29,64 @@ compile_commands.json
 *.a
 *.lib
 
+
 # Logs
+
 *.log
 
+
 # Temporary files
+
 *.tmp
 *.temp
 *.swp
 *.swo
 *~
 
+
 # VS Code
+
 .vscode/
 
+
 # JetBrains / CLion
+
 .idea/
 
+
 # OS junk
+
 .DS_Store
 Thumbs.db
 
+
 # Testing outputs
+
 *.gcda
 *.gcno
 *.gcov
 coverage/
+
 # Build folders
+
 build/
 cmake-build-*/
 out/
 bin/
 dist/
 
+
 # CMake
+
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 compile_commands.json
 
+
 # Compiled binaries
+
 *.exe
 *.out
 *.app
@@ -74,27 +97,39 @@ compile_commands.json
 *.a
 *.lib
 
+
 # Logs
+
 *.log
 
+
 # Temporary files
+
 *.tmp
 *.temp
 *.swp
 *.swo
 *~
 
+
 # VS Code
+
 .vscode/
 
+
 # JetBrains / CLion
+
 .idea/
 
+
 # OS junk
+
 .DS_Store
 Thumbs.db
 
+
 # Testing outputs
+
 *.gcda
 *.gcno
 *.gcov
