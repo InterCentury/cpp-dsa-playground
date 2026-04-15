@@ -1,33 +1,23 @@
 
-# 🚀 CPP-DSA-Playground
 
-### Data Structures & Algorithms playground built with pure C++
+# CPP-DSA-Playground
 
-Welcome to my personal **C++ DSA lab** 👨‍💻
-This repository is where I **learn, implement, break, rebuild, and master** core data structures and algorithms from scratch.
-
-No copy-paste.
-No magic libraries.
-Just raw logic + practice + experiments.
+Data Structures & Algorithms implementations in C++.
 
 ---
 
-## 🎯 Goals
+## Purpose
 
-* Understand DSA deeply (not just use STL)
-* Implement everything from scratch
-* Practice clean code & commit discipline
-* Track learning progress using GitHub
-* Prepare for interviews & competitive programming
-* Build strong problem-solving skills
+- Implement DSA from scratch without STL dependencies
+- Document working code with complexity analysis
+- Practice for technical interviews
 
 ---
 
-## 📂 Project Structure
+## Structure
 
 ```
 CPP-DSA-Playground/
-│
 ├── arrays/
 ├── linked_list/
 ├── stack/
@@ -41,71 +31,55 @@ CPP-DSA-Playground/
 └── notes/
 ```
 
-Each folder contains:
-
-* Implementation (.cpp / .h)
-* Tests or examples
-* Notes & complexity analysis
+Each folder contains implementation files, test cases, and complexity notes.
 
 ---
 
-## 🧠 Implementations (Planned & Ongoing)
+## Completed
 
-### 📦 Basic Structures
+| Structure | Status |
+|-----------|--------|
+| Dynamic Array (Vector) | ✅ |
+| Stack (Array + Linked List) | ✅ |
+| Queue | ✅ |
+| Bubble/Selection/Insertion Sort | ✅ |
 
-* [x] Dynamic Array (Vector)
-* [x] Stack (Array + Linked List)
-* [x] Queue
-* [ ] Deque
-* [ ] Hash Table
+## Planned
 
-### 🌲 Trees
-
-* [ ] Binary Tree
-* [ ] BST
-* [ ] AVL Tree
-* [ ] Heap / Priority Queue
-* [ ] Segment Tree
-
-### 🔗 Graphs
-
-* [ ] BFS / DFS
-* [ ] Dijkstra
-* [ ] Topological Sort
-* [ ] Union-Find (Disjoint Set)
-
-### ⚡ Algorithms
-
-* [x] Bubble / Selection / Insertion
-* [ ] Merge Sort
-* [ ] Quick Sort
-* [ ] Binary Search
-* [ ] DP problems
-
+| Structure | Algorithm |
+|-----------|-----------|
+| Deque | Merge Sort |
+| Hash Table | Quick Sort |
+| Binary Tree / BST | Binary Search |
+| AVL Tree | BFS / DFS |
+| Heap | Dijkstra |
+| Segment Tree | Topological Sort |
+| Union-Find | DP Problems |
 
 ---
 
-## 🛠 Tech Stack
+## Build & Run
 
-* Language: **C++**
-* Compiler: g++
-* Build: CMake / CLI
-* Style: Clean & modular code
+```bash
+g++ -std=c++17 file.cpp -o output && ./output
+```
 
 ---
 
-## 📏 Rules I Follow
+## Commit Convention
 
-* Small, meaningful commits
-* Clear commit messages (`feat:`, `fix:`, `refactor:`)
-* Write code first, optimize later
-* Focus on understanding, not memorizing
-* Prefer implementing manually before using ST
+- `feat:` new implementation
+- `fix:` bug fix
+- `docs:` comments or README
+- `test:` test cases
+- `refactor:` code cleanup
 
+---
 
-This is not a perfect library —
-it's a **learning journey**.
+## Notes
 
-If you're learning DSA too, feel free to explore or learn along with me 😄
+- Manual memory management (new/delete)
+- No STL containers used in core implementations
+- Complexity noted in comments
 
---
+---
